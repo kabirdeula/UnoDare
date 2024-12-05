@@ -1,0 +1,24 @@
+lib/
+│
+├── core/
+│   ├── constants/          # App-wide constants (e.g., colors, card rules)
+│   ├── utils/              # Utility functions or classes
+│   └── widgets/            # Reusable UI components
+│
+├── data/
+│   ├── models/             # Data models (e.g., CardModel)
+│   ├── repositories/       # Repository interfaces
+│   └── sources/            # Remote or local data sources
+│
+├── domain/
+│   ├── entities/           # Core business entities (if different from models)
+│   ├── repositories/       # Abstract repository contracts
+│   └── use_cases/          # Application-specific business logic
+│
+├── presentation/
+│   ├── cubit/              # Cubit state management
+│   ├── screens/            # Individual game screens
+│   └── widgets/            # Widgets specific to game presentation
+│
+├── app.dart                # App entry point
+└── main.dart               # App bootstrap logic
