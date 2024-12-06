@@ -1,1 +1,1 @@
-export 'card_model.dart';
+export 'cards/card_model.dart';

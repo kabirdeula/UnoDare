@@ -1,5 +1,5 @@
 import 'package:flutter_test/flutter_test.dart';
-import 'package:uno_dare/data/models/card_model.dart';
+import 'package:uno_dare/data/models/cards/card_model.dart';
 
 void main() {
   group('Card Model', () {

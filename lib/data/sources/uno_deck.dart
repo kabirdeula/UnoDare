@@ -1,6 +1,6 @@
 import 'dart:math';
 
-import 'package:uno_dare/data/models/card_model.dart';
+import 'package:uno_dare/data/models/cards/card_model.dart';
 
 class UnoDeck {
   static const List<String> colors = ['red', 'blue', 'green', 'yellow'];
